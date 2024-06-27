@@ -7,14 +7,33 @@ a {
   color: inherit;
 }
 
+body {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #2c2b2b;
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
-  max-width: 1200px;
+  max-width: 1220px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .header {
+  color: white;
   background-image: url("/images/bg.jpg");
   height: 700px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__top {
@@ -28,7 +47,6 @@ a {
 }
 
 .phone {
-  color: white;
   font-family: Oswald;
   font-size: 36px;
   font-style: normal;
@@ -38,8 +56,6 @@ a {
 }
 
 .header__title {
-  font-family: "Oswald", sans-serif;
-  color: white;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +65,6 @@ a {
 }
 
 .header__subtitle {
-  color: white;
   font-family: Oswald;
   font-size: 36px;
   font-style: normal;
@@ -64,7 +79,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  color: #fff;
+
   margin-top: 30px;
 }
 
@@ -80,5 +95,19 @@ a {
   border: none;
   cursor: pointer;
   margin-top: 30px;
-  color: #fff;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.header__social {
+  margin-left: 35px;
+}
+
+.header__social-link {
+  margin-right: 5px;
+}
+
+.header-img {
+  margin-left: 365px;
+  margin-top: -146px;
 }
