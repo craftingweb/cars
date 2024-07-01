@@ -34,6 +34,7 @@ a {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 300px;
 }
 
 .header__top {
@@ -96,15 +97,22 @@ a {
   cursor: pointer;
   margin-top: 30px;
   color: white;
-  margin-bottom: 70px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.header__btn:hover {
+  color: #5a0d67;
+  background-color: white;
 }
 
 .header__social {
-  margin-left: 35px;
+  margin: 70px 0 0 45px;
+  display: flex;
 }
 
 .header__social-link {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .header-img {
