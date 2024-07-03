@@ -15,6 +15,10 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+li {
+  list-style-type: auto;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -118,4 +122,52 @@ a {
 .header-img {
   margin-left: 365px;
   margin-top: -146px;
+}
+
+.title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  color: #21062a;
+  position: relative;
+}
+
+.service {
+  margin-bottom: 100px;
+}
+
+.title::after {
+  margin-left: 15px;
+  margin-top: 20px;
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+}
+
+.service__inner {
+  display: flex;
+}
+
+.service__left {
+  max-width: 500px;
+  margin-right: 100px;
+}
+
+.subtitle {
+  color: #5a0d67;
+  margin-bottom: 12px;
+  font-weight: 300;
+}
+
+.service__text + .service__text {
+  margin-top: 12px;
+}
+
+.service__text + .subtitle {
+  margin-top: 70px;
 }
