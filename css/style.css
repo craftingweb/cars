@@ -16,7 +16,7 @@ body {
 }
 
 li {
-  list-style-type: auto;
+  list-style-type: none;
 }
 
 a {
@@ -97,7 +97,7 @@ a {
   text-transform: uppercase;
   padding: 15px 55px;
   background-color: #5a0d67;
-  border: none;
+  border: 1px solid #5a0d67;
   cursor: pointer;
   margin-top: 30px;
   color: white;
@@ -106,6 +106,7 @@ a {
 }
 
 .header__btn:hover {
+  border: 1px solid #5a0d67;
   color: #5a0d67;
   background-color: white;
 }
@@ -179,4 +180,80 @@ a {
 .action::after {
   content: "";
   position: absolute;
+  width: 80px;
+  height: 2px;
+  background-color: grey;
+  margin-left: 50px;
+  top: 50%;
+}
+
+.action::before {
+  content: "PRESS";
+  position: absolute;
+  color: grey;
+  margin-left: 250px;
+  top: 33%;
+}
+
+.service__list {
+  list-style: none;
+  counter-reset: my-counter;
+}
+
+.service__item {
+  counter-increment: my-counter;
+  border: 2px solid grey;
+  margin-bottom: 12px;
+  width: 450px;
+  padding: 10px 15px 10px 115px;
+  position: relative;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.service__item::before {
+  content: "0" counter(my-counter);
+  position: absolute;
+  left: 40px;
+  rotate: -90deg;
+  top: 15px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  transition: all 0.5s;
+}
+
+.service__item-title {
+  color: #2c2b2b;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.service__item-text {
+  color: #2c2b2b;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.service__item:hover {
+  border: 2px solid #5a0d67;
+  width: 500px;
+}
+.service__item:hover .service__item-title {
+  color: #5a0d67;
+}
+.service__item:hover .service__item-text {
+  color: black;
+}
+.service__item:hover::before {
+  color: #5a0d67;
 }
