@@ -171,3 +171,12 @@ a {
 .service__text + .subtitle {
   margin-top: 70px;
 }
+
+.action {
+  position: relative;
+}
+
+.action::after {
+  content: "";
+  position: absolute;
+}
