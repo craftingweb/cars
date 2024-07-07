@@ -257,3 +257,57 @@ a {
 .service__item:hover::before {
   color: #5a0d67;
 }
+
+.why {
+  margin-bottom: 100px;
+}
+
+.why__inner {
+  display: flex;
+}
+
+.why__img {
+  margin-right: 100px;
+}
+
+.title-why {
+  margin-left: 185px;
+  margin-bottom: 50px;
+}
+
+.why-content {
+  width: 780px;
+  height: 500px;
+  background-color: #21062a;
+}
+
+.why__container {
+  margin-left: 185px;
+  color: white;
+  padding-top: 25px;
+}
+
+.why__item {
+  width: 325px;
+  margin-bottom: 20px;
+}
+
+.why__title {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.why__subtitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.why__text {
+  color: #c4c4c4;
+}
