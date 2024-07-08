@@ -311,3 +311,29 @@ a {
 .why__text {
   color: #c4c4c4;
 }
+
+.carousel {
+  margin-bottom: 100px;
+}
+
+/* .carousel__inner {
+  display: flex;
+  gap: 14px;
+} */
+
+/* .carousel__item {
+  padding: 4px 4px 15px 4px;
+  border: 1px solid #c4c4c4;
+  text-align: center;
+} */
+
+/* .carousel__title {
+  color: #2c2b2b;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 25px;
+} */
+
+/* .carousel__subtitle {
+} */
