@@ -321,11 +321,11 @@ a {
   gap: 14px;
 } */
 
-/* .carousel__item {
+.carousel__item-box {
   padding: 4px 4px 15px 4px;
   border: 1px solid #c4c4c4;
   text-align: center;
-} */
+}
 
 /* .carousel__title {
   color: #2c2b2b;
