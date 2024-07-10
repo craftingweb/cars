@@ -321,20 +321,41 @@ a {
   gap: 14px;
 } */
 
+.carousel__item {
+  margin: 0 -7px;
+}
+
 .carousel__item-box {
   padding: 4px 4px 15px 4px;
   border: 1px solid #c4c4c4;
   text-align: center;
   margin: 0 7px;
+  transition: all 0.5s;
 }
 
-/* .carousel__title {
+.carousel__img {
+  width: 100%;
+}
+
+.carousel__title {
   color: #2c2b2b;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   margin-top: 25px;
-} */
+}
 
-/* .carousel__subtitle {
-} */
+.carousel__subtitle {
+  font-weight: 300;
+  color: #2c2b2b;
+}
+
+.carousel__item-box:hover {
+  background-color: #5a0d67;
+  border: 1px solid #5a0d67;
+}
+
+.carousel__item-box:hover .carousel__subtitle,
+.carousel__item-box:hover .carousel__title {
+  color: white;
+}
