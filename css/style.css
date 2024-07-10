@@ -330,7 +330,7 @@ a {
   border: 1px solid #c4c4c4;
   text-align: center;
   margin: 0 7px;
-  transition: all 0.5s;
+  transition: all 0.8s;
 }
 
 .carousel__img {
@@ -358,4 +358,23 @@ a {
 .carousel__item-box:hover .carousel__subtitle,
 .carousel__item-box:hover .carousel__title {
   color: white;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  background-color: #c4c4c4;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.slick-active button {
+  background-color: #5a0d67;
+  height: 3px;
 }
