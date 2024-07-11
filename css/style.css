@@ -378,3 +378,7 @@ a {
   background-color: #5a0d67;
   height: 3px;
 }
+
+.contacts__title {
+  margin: 50px 0;
+}
