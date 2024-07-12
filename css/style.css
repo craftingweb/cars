@@ -401,6 +401,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .form__title {
@@ -423,6 +424,12 @@ input {
   margin-bottom: 12px;
   outline: none;
   color: white;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
 }
 
 input::placeholder {
@@ -431,4 +438,23 @@ input::placeholder {
 
 .form__btn {
   margin-top: 75px;
+}
+
+.footer {
+  background-color: #21062a;
+  padding: 24px 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy {
+  color: white;
+}
+
+.footer__social {
+  margin: 0;
 }
