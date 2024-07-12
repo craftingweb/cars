@@ -380,5 +380,55 @@ a {
 }
 
 .contacts__title {
-  margin: 50px 0;
+  margin-top: 50px;
+  color: #5a0d67;
+}
+
+.contacts__text + .contacts__title {
+  margin-top: 20px;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__form {
+  color: white;
+  width: 600px;
+  height: 466px;
+  background-color: #21062a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__title {
+  color: white;
+  margin-top: 50px;
+  margin-left: -30px;
+  margin-bottom: 16px;
+}
+
+.form__title::after {
+  background-color: #fff;
+}
+
+input {
+  width: 450px;
+  height: 75px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: transparent;
+  margin-bottom: 12px;
+  outline: none;
+  color: white;
+}
+
+input::placeholder {
+  color: #c4c4c4;
+}
+
+.form__btn {
+  margin-top: 75px;
 }
