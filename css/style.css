@@ -463,6 +463,33 @@ input::placeholder {
   .header-img {
     max-width: 50%;
   }
+  .header {
+    margin-bottom: 100px;
+  }
+  .service__item:hover {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .service__inner {
+    flex-wrap: wrap;
+  }
+  .service__list {
+    width: 100%;
+    order: -1;
+    margin-bottom: 30px;
+  }
+  .service__item {
+    width: 100%;
+  }
+  .service__item:hover {
+    width: 100%;
+  }
+  .service__left {
+    max-width: 100%;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 760px) {
