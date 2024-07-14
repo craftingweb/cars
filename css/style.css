@@ -490,6 +490,12 @@ input::placeholder {
     max-width: 100%;
     margin-right: 0;
   }
+  .title {
+    text-align: center;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 760px) {
@@ -523,5 +529,20 @@ input::placeholder {
   }
   .header__top {
     align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    text-align: left;
+  }
+  .service__item-text {
+    font-size: 12px;
+  }
+  .service__item-title {
+    font-size: 20px;
+  }
+  .service__item::before {
+    top: 9px;
   }
 }
