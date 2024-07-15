@@ -490,12 +490,30 @@ input::placeholder {
     max-width: 100%;
     margin-right: 0;
   }
-  .title {
+  .title-top {
     text-align: center;
   }
   .header {
     margin-bottom: 50px;
   }
+  .why__img {
+    display: none;
+  }
+  .title-why {
+    margin-left: 0;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  /* .why-content {
+    width: 480px;
+  } */
+  /* .why__container {
+    margin-left: 85px;
+  }
+  .title-why {
+    margin-left: 0;
+    margin-bottom: 50px;
+  } */
 }
 
 @media (max-width: 760px) {
@@ -513,6 +531,12 @@ input::placeholder {
   }
   .phone {
     font-size: 18px;
+  }
+  .why__inner {
+    text-align: center;
+  }
+  .title-why {
+    margin-left: 0;
   }
 }
 
@@ -533,7 +557,7 @@ input::placeholder {
 }
 
 @media (max-width: 450px) {
-  .title {
+  .title-top {
     text-align: left;
   }
   .service__item-text {
