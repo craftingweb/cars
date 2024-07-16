@@ -469,6 +469,9 @@ input::placeholder {
   .service__item:hover {
     width: 450px;
   }
+  .title-slider {
+    text-align: center;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -502,14 +505,20 @@ input::placeholder {
   .title-why {
     margin-left: 0;
     margin-bottom: 50px;
-    text-align: left;
+    text-align: center;
   }
-  /* .why-content {
-    width: 480px;
-  } */
-  /* .why__container {
-    margin-left: 85px;
+  .why__right {
+    width: 100%;
   }
+  .why__container {
+    margin-left: 0;
+  }
+  .why-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /*
   .title-why {
     margin-left: 0;
     margin-bottom: 50px;
@@ -553,6 +562,12 @@ input::placeholder {
   }
   .header__top {
     align-items: center;
+  }
+  .slick-dots button {
+    width: 15px;
+  }
+  .slick-dots {
+    margin-top: 15px;
   }
 }
 
