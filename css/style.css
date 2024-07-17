@@ -518,11 +518,11 @@ input::placeholder {
     display: flex;
     justify-content: center;
   }
-  /*
-  .title-why {
-    margin-left: 0;
-    margin-bottom: 50px;
-  } */
+  .contacts__inner {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 760px) {
@@ -568,6 +568,26 @@ input::placeholder {
   }
   .slick-dots {
     margin-top: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel {
+    margin-bottom: 20px;
+  }
+  input {
+    width: 300px;
+  }
+  .form__title {
+    font-size: 30px;
+    margin-left: -80px;
+  }
+  .title-contact {
+    font-size: 30px;
+    margin-left: -40px;
+  }
+  .form__btn {
+    margin-top: 45px;
   }
 }
 
