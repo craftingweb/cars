@@ -316,11 +316,6 @@ a {
   margin-bottom: 100px;
 }
 
-/* .carousel__inner {
-  display: flex;
-  gap: 14px;
-} */
-
 .carousel__item {
   margin: 0 -7px;
 }
@@ -472,6 +467,9 @@ input::placeholder {
   .title-slider {
     text-align: center;
   }
+  .why-content {
+    width: 579px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -560,6 +558,9 @@ input::placeholder {
     margin: 70px 0 0 0px;
     display: block;
   }
+  .footer__social {
+    margin-top: 0;
+  }
   .header__top {
     align-items: center;
   }
@@ -589,6 +590,13 @@ input::placeholder {
   .form__btn {
     margin-top: 45px;
   }
+  .footer__inner {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .carousel .title::after {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
@@ -603,5 +611,8 @@ input::placeholder {
   }
   .service__item::before {
     top: 9px;
+  }
+  .contacts__form {
+    width: 400px;
   }
 }
